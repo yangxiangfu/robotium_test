@@ -1,0 +1,69 @@
+package com.note.android.bean;
+
+public class TestCaseBean {
+
+  /**
+	 * @author chrisandy
+	 * @createDate 2013/05/17
+	 * 测试用例
+	 */
+	private Integer id;
+	private Integer case_id;  		//测试用例ID
+	private Integer step_id;  		//单个测试用例里面的测试步骤ID
+	private Integer type;     		//测试步骤中的操作ID
+	private String type_opearte;	//测试步骤的具体操作
+	private String locator; 		//测试步骤的操作对象定位器
+	private int index;				//控件的下标
+	private String value;			//测试步骤的操作对象对应的值
+	
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public Integer getCase_id() {
+		return case_id;
+	}
+	public void setCase_id(Integer case_id) {
+		this.case_id = case_id;
+	}
+	public Integer getStep_id() {
+		return step_id;
+	}
+	public void setStep_id(Integer step_id) {
+		this.step_id = step_id;
+	}
+	public Integer getType() {
+		return type;
+	}
+	public void setType(Integer type) {
+		this.type = type;
+	}
+	public String getType_opearte() {
+		return type_opearte;
+	}
+	public void setType_opearte(String type_opearte) {
+		this.type_opearte = type_opearte;
+	}
+	public String getLocator() {
+		return locator;
+	}
+	public void setLocator(String locator) {
+		this.locator = locator;
+	}
+	public int getIndex() {
+		return index;
+	}
+	public void setIndex(int index) {
+		this.index = index;
+	}
+	public String getValue() {
+		return value;
+	}
+	public void setValue(String value) {
+		this.value = value;
+	}
+	
+
+}
